@@ -38,7 +38,7 @@ python -m pip install Django
 For a detail instruction on how to install Django [click here](https://docs.djangoproject.com/en/4.2/topics/install/)
 ## Start Project
 
-Change into the out notetaking directory and then run the following command:
+Change into the outter notetaking directory and then run the following command:
 ```bash
 python manage.py runserver
 ```
