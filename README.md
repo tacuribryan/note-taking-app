@@ -49,6 +49,7 @@ For a detail instruction about Django CORS headers [click here](https://pypi.org
 ### Navigate to note-taking-app/notetaking directory in terminal and then run the following commands:
 ```bash
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+#follow prompts and Next Step instructions
 ```
 For detail instruction about Homebrew [click here](https://brew.sh)
 ```bash
