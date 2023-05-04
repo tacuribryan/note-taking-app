@@ -28,12 +28,15 @@ deactivate
 
 For a detail instruction on Virtual Environments and Packages [click here](https://docs.python.org/3/tutorial/venv.html)
 
-## Install Django
+## Install Django and Django REST framework using pip
 
 In the project directory, activate the virtual environment, and then enter the command:
 
 ```bash
 python -m pip install Django
+```
+```bash
+pip install djangorestframework
 ```
 For a detail instruction on how to install Django [click here](https://docs.djangoproject.com/en/4.2/topics/install/)
 ## Start Project
