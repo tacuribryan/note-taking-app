@@ -42,7 +42,9 @@ pip install djangorestframework
 pip install django-cors-headers
 ```
 For a detail instruction on how to install Django [click here](https://docs.djangoproject.com/en/4.2/topics/install/)
+
 For a detail instruction about Django Rest Framework (DRF) [click here](https://www.django-rest-framework.org)
+
 For a detail instruction about Django CORS headers [click here](https://pypi.org/project/django-cors-headers/)
 ## Start Project
 
