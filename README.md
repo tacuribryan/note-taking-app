@@ -28,7 +28,7 @@ deactivate
 
 For a detail instruction on Virtual Environments and Packages [click here](https://docs.python.org/3/tutorial/venv.html)
 
-## Install Django and Django REST framework using pip
+## Install Django, Django REST framework, and CORS headers using pip
 
 In the project directory, activate the virtual environment, and then enter the command:
 
@@ -38,7 +38,12 @@ python -m pip install Django
 ```bash
 pip install djangorestframework
 ```
+```bash
+pip install django-cors-headers
+```
 For a detail instruction on how to install Django [click here](https://docs.djangoproject.com/en/4.2/topics/install/)
+For a detail instruction about Django Rest Framework (DRF) [click here](https://www.django-rest-framework.org)
+For a detail instruction about Django CORS headers [click here](https://pypi.org/project/django-cors-headers/)
 ## Start Project
 
 Change into the outter notetaking directory and then run the following command:
