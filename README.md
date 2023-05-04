@@ -28,24 +28,40 @@ deactivate
 
 For a detail instruction on Virtual Environments and Packages [click here](https://docs.python.org/3/tutorial/venv.html)
 
-## Install Django, Django REST framework, and CORS headers using pip
+## Install Django, Django REST framework, and CORS headers using pip and ReactJS dependencies
 
 In the project directory, activate the virtual environment, and then enter the command:
 
 ```bash
 python -m pip install Django
 ```
+For a detail instruction on how to install Django [click here](https://docs.djangoproject.com/en/4.2/topics/install/)
 ```bash
 pip install djangorestframework
 ```
+For a detail instruction about Django Rest Framework (DRF) [click here](https://www.django-rest-framework.org)
 ```bash
 pip install django-cors-headers
 ```
-For a detail instruction on how to install Django [click here](https://docs.djangoproject.com/en/4.2/topics/install/)
-
-For a detail instruction about Django Rest Framework (DRF) [click here](https://www.django-rest-framework.org)
-
 For a detail instruction about Django CORS headers [click here](https://pypi.org/project/django-cors-headers/)
+
+
+### Navigate to note-taking-app/notetaking directory in terminal and then run the following commands:
+```bash
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+```
+For detail instruction about Homebrew [click here](https://brew.sh)
+```bash
+brew install node
+```
+For detail instruction about installing Node [click here](https://formulae.brew.sh/formula/node)
+```bash
+npm install
+```
+For detail instruction about npm install [click here](https://docs.npmjs.com/cli/v8/commands/npm-install)
+
+
+
 ## Start Project
 
 Change into the outter notetaking directory and then run the following command:
