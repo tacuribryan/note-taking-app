@@ -13,7 +13,7 @@ The NoteList class handles request for multple notes
 '''
 class NoteList(APIView):
     def get(self, request):
-        notes =  Note.objects.all()
+        notes =  Note.objects.all().order_by('-updated')
         serializer = NoteSerializer(notes, many=True)
         return Response(serializer.data)
     def post(self, request):
@@ -31,7 +31,7 @@ The NoteDetail class handles request for a single note by its ID
 class NoteDetail(APIView):
     def get_object(self, pk):
         try:
-            return Note.objects.get
+            return Note.objects.get(pk=pk)
         except Note.DoesNotExist:
             raise Http404
         
